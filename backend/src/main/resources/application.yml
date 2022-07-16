@@ -16,8 +16,8 @@ spring:
         format_sql: true
 #variaveis de ambiente twilio
 twilio:
-  sid: ${TWILIO_SID}
-  key: ${TWILIO_KEY}
+  sid: 123 #${TWILIO_SID}
+  key: 123 #${TWILIO_KEY}
   phone:
-    from: ${TWILIO_PHONE_FROM}
-    to: ${TWILIO_PHONE_TO}
+    from: 123 #${TWILIO_PHONE_FROM}
+    to: 123 #${TWILIO_PHONE_TO}
